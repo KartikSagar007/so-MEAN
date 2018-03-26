@@ -1,6 +1,16 @@
+upload fresh project in github website:
 git init
 git add .
 git commit -m "First Commit"
 git remote -v
 git remote add origin https://github.com/SagarBagga/so-MEAN.git
 git push origin master // if not "git push --force origin master
+
+undo any commit if not pushed:
+$ git commit -m "Something terribly misguided"              
+$ git reset HEAD~                                           
+<< edit files as necessary >>                               
+$ git add .                                               
+$ git commit -c ORIG_HEAD 
+or
+git revert {commit_id}
