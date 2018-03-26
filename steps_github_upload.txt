@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "First Commit"
+git remote -v
+git remote add origin https://github.com/SagarBagga/so-MEAN.git
+git push origin master // if not "git push --force origin master
