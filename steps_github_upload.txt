@@ -14,3 +14,7 @@ $ git add .
 $ git commit -c ORIG_HEAD 
 or
 git revert {commit_id}
+
+angular: singlepage, updates DOM, Handling Routing(of visual parts), very reactive user exp
+
+course structure: node basic, mongodb basic, angular 2 basic, angular 2+node, athentication, handling errors, optimizing the angular 2 app(eg lazy loading), deployment, build your own seed project
